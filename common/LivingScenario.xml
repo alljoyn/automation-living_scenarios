@@ -1,0 +1,8 @@
+<node>
+	<interface name="org.alljoyn.LivingScenario">
+		<signal name="LivingScenario">
+			<arg name="name" type="s"/>
+			<arg name="parameters" type="a{ss}"/>
+		</signal>
+	</interface>
+</node>
